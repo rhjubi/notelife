@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="home.css" />
+    <title>Shareworld sign up and log in</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <!-- sign in form start -->
+
+          <form action="#" class="sign-in-form">
+            <div class="bd">
+            <div class="text-center">
+              <h1><strong>Note</strong>life</h1>
+            </div>
+            <div class="mt-1 inp">
+              <input class="inp1 my-4" type="text" name="email" placeholder="Email Address">
+              <input class="inp1 mb-3" type="password" name="password" placeholder="Password">
+            </div>
+            <div class="d-flex justify-content-end anchor">
+              <a class="anchor mb-2" href="forgot.html">Forgot ?</a>
+            </div>
+            <div class="signin-btn1">
+              <a class="btn btn-danger" href="index.html">Sign in</a>
+            </div>
+            <div class="mt-3 text-center">
+              <p>Or continue with</p>
+            </div>
+            <div class="signup-btn">
+              <button class="fb-btn"><i class="fab fa-facebook-f me-2"></i>Sign up with facebook</button>
+              <button class="gmail-btn"><i class="fab fa-google me-2"></i>Sign up with gmail</button>
+              <button class="apple-btn"><i class="fab fa-apple me-2"></i>Sign up with apple</button>
+            </div>
+            <div class="signup-btn2">
+              <a href="#signUp"><button class="" id="signUp">New User?</button></a>
+            </div>
+          </div>
+            
+          </form>
+
+<!-- sign in form end -->
+          <!-- sign up form start -->
+          <form action="#" class="sign-up-form" id="signUp">
+            <div class="signup-div">
+              <div class="me-3 back--icon">
+                <a href="index.html">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+              </div>
+              <div>
+                <div class="text">
+                  <h2>New User?</h2>
+                  <p>Register now to continue</p>
+                </div>
+              </div>
+
+                <div class="inp mt-4">
+                  <input class="mb-3" type="text" name="name" placeholder="Full Name">
+                  <input class="mb-3" type="email" name="email" placeholder="Email Address">
+                  <div>
+                    <form action="" class="mb-1">
+                      <div class="d-flex">
+                        <h5 class="me-4">Gender</h5>
+                         <div class="d-flex text-secondary">
+                          <p class="me-5"><input class="me-2" type="radio" name="fav_language" value="male">Male</p>
+                          <p><input class="me-2" type="radio" name="fav_language" value="female">Female</p>
+                         </div>
+                      </div>
+                    </form>
+                  </div>
+                  <input class="mb-3" type="password" name="password" placeholder="Confirm Password">
+                  <input class="mb-3" type="number" name="phone" placeholder="Phone Number">
+                </div>
+
+                <div class="reg-btn mt-3">
+                  <button>Register now</button>
+                </div>
+                <div class="alert-text mt-3">
+                  <p>
+                    We'll send verification code on above given number to verify
+                  </p>
+                </div>
+              </div>
+        </form>
+            <!-- sign up form end -->
+          
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Enter your details and start journey with us
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              To keep connected with us please login with your personal info
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
